@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,28 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-portfolio';
+
+  
+  // let menuIcon=document.querySelector("#menu-icon");
+  // let navbar=document.querySelector(".navbar");
+
+  // menuIcon() : void{
+  //   menuIcon?.classList.toggle('bx-x');
+  //   navbar?.classList.toggle('active');
+
+  // };
+
+  // title = 'angular-portfolio';
+
+  // constructor(private router:Router){ }
+
+
+  
+  // returHome() :void{
+  //   this.router.navigate(["portfolio-home"]);
+
+  // }
+  
+
+  
 }
