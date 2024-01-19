@@ -10,23 +10,23 @@ import { PortfolioService } from '../portfolio.service';
 })
 export class ContactsectionComponent {
 
-  portfoliocont:Portfoliocont=new Portfoliocont();
+  // portfoliocont:Portfoliocont=new Portfoliocont();
 
-  constructor(private portfolioService:PortfolioService, private router:Router){ }
+  // constructor(private portfolioService:PortfolioService, private router:Router){ }
   
-  onSend(){
-    console.log(this.portfoliocont);
-    this.saveContact();
-    this.returnContact();
-  }
+  // onSend(){
+  //   console.log(this.portfoliocont);
+  //   this.saveContact();
+  //   this.returnContact();
+  // }
 
-    saveContact(){
-      this.portfolioService.insertValues(this.portfoliocont).subscribe(data => {console.log(data)});
-    }
+  //   saveContact(){
+  //     this.portfolioService.insertValues(this.portfoliocont).subscribe(data => {console.log(data)});
+  //   }
 
-    returnContact():void {
-      this.router.navigate(['portfolio-home']);
-    }
+  //   returnContact():void {
+  //     this.router.navigate(['portfolio-home']);
+  //   }
 
 
   
